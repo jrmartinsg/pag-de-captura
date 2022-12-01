@@ -93,32 +93,33 @@ footer {
     text-align: left;
 }
 
-@media screen and (max-width:620px) {}
+@media screen and (max-width:620px) {
 
+    .form {
+        float: none;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 
-.form {
-    float: none;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
+    .picture {
+        margin-bottom: 10px;
+    }
 
-.picture {
-    margin-bottom: 10px;
-}
+    .titlePalestrante {
+        text-align: center;
+    }
 
-.titlePalestrante {
-    text-align: center;
-}
+    .description {
+        display: block;
+        margin: auto;
+        text-align: left;
+    }
 
-.description {
-    display: block;
-    margin: auto;
-    text-align: left;
-}
-
-.qualifyPalestrante {
-    padding-bottom: 20px;
+    .qualifyPalestrante {
+        margin: 0;
+        padding-bottom: 20px;
+    }
 }
 
 @media screen and (max-width:400px) {
@@ -127,10 +128,12 @@ footer {
     .aboutPalestrante {
         font-size: 4vw;
     }
-    .aboutPalestrante{
+
+    .aboutPalestrante {
         margin: 15px 30px;
     }
-    .qualifyPalestrante{
+
+    .qualifyPalestrante {
         margin: 0 30px;
     }
 }
